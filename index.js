@@ -7,7 +7,7 @@ function fib(n) {
 }
 
 app.get('/', (req, res) => {
-    res.send(fib(1000))
+    res.send(fib(1))
 })
 
 app.listen(port, () => {
